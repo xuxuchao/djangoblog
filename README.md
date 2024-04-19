@@ -3,9 +3,8 @@
 🌍
 *[English](/docs/README-en.md) ∙ [简体中文](README.md)*
 
-基于`python3.8`和`Django4.0`的博客。   
+基于`python3.10`和`Django4.2`的博客。   
 
-[![Django CI](https://github.com/liangliangyy/DjangoBlog/actions/workflows/django.yml/badge.svg)](https://github.com/liangliangyy/DjangoBlog/actions/workflows/django.yml) [![CodeQL](https://github.com/liangliangyy/DjangoBlog/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/liangliangyy/DjangoBlog/actions/workflows/codeql-analysis.yml) [![codecov](https://codecov.io/gh/liangliangyy/DjangoBlog/branch/master/graph/badge.svg)](https://codecov.io/gh/liangliangyy/DjangoBlog)  [![license](https://img.shields.io/github/license/liangliangyy/djangoblog.svg)]()  
 
 ## 主要功能：
 - 文章，页面，分类目录，标签的添加，删除，编辑等。文章、评论及页面支持`Markdown`，支持代码高亮。
@@ -25,18 +24,6 @@
 mysql客户端从`pymysql`修改成了`mysqlclient`，具体请参考 [pypi](https://pypi.org/project/mysqlclient/) 查看安装前的准备。
 
 使用pip安装： `pip install -Ur requirements.txt`
-
-如果你没有pip，使用如下方式安装：
-- OS X / Linux 电脑，终端下执行: 
-
-    ```
-    curl http://peak.telecommunity.com/dist/ez_setup.py | python
-    curl https://bootstrap.pypa.io/get-pip.py | python
-    ```
-
-- Windows电脑：
-
-    下载 http://peak.telecommunity.com/dist/ez_setup.py 和 https://raw.github.com/pypa/pip/master/contrib/get-pip.py 这两个文件，双击运行。 
 
 
 ## 运行
