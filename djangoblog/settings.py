@@ -160,7 +160,7 @@ AUTHENTICATION_BACKENDS = [
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'collectedstatic')
 
-STATIC_URL = '/static/'
+STATIC_URL = '/blog/static/'
 STATICFILES = os.path.join(BASE_DIR, 'static')
 
 AUTH_USER_MODEL = 'accounts.BlogUser'
