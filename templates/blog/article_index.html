@@ -4,11 +4,12 @@
 {% block header %}
 
     {% if tag_name %}
-        <title>{{ page_type }}:{{ tag_name }} | {{ SITE_DESCRIPTION }}</title>
+        <title>{{ page_type }}:{{ tag_name }}</title>
         {% comment %}<meta name="description" content="{{ page_type }}:{{ tag_name }}"/>{% endcomment %}
     {% else %}
-        <title>{{ SITE_NAME }} | {{ SITE_DESCRIPTION }}</title>
+        <title>{{ SITE_NAME }}</title>
     {% endif %}
+    <link rel="icon" type="image/x-icon" href="/blog/static/blog/img/20240416155610.png">
     <meta name="description" content="{{ SITE_SEO_DESCRIPTION }}"/>
     <meta name="keywords" content="{{ SITE_KEYWORDS }}"/>
     <meta property="og:type" content="blog"/>

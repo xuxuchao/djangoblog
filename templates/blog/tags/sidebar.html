@@ -37,7 +37,7 @@
     {% endif %}
     {% if most_read_articles %}
 
-        <aside id="views-4" class="widget widget_views"><p class="widget-title">Views</p>
+        <aside id="views-4" class="widget widget_views"><p class="widget-title" style="color: orange; text-decoration: none;">Views</p>
             <ul>
                 {% for a in most_read_articles %}
                     <li>
@@ -51,7 +51,7 @@
         </aside>
     {% endif %}
     {% if sidebar_categorys %}
-        <aside id="su_siloed_terms-2" class="widget widget_su_siloed_terms"><p class="widget-title">分类目录</p>
+        <aside id="su_siloed_terms-2" class="widget widget_su_siloed_terms"><p class="widget-title" style="color: orange; text-decoration: none;">分类目录</p>
             <ul>
                 {% for c in sidebar_categorys %}
                     <li class="cat-item cat-item-184"><a href={{ c.get_absolute_url }}>{{ c.name }}</a>
@@ -61,7 +61,7 @@
         </aside>
     {% endif %}
     {% if sidebar_comments and  open_site_comment %}
-        <aside id="ds-recent-comments-4" class="widget ds-widget-recent-comments"><p class="widget-title">近期评论</p>
+        <aside id="ds-recent-comments-4" class="widget ds-widget-recent-comments"><p class="widget-title" style="color: orange; text-decoration: none;">近期评论</p>
             {% comment %}<ul class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="1"
             data-show-title="1" data-show-admin="1" data-avatar-size="30" data-excerpt-length="70"></ul>{% endcomment %}
             <ul id="recentcomments">
@@ -77,7 +77,7 @@
         </aside>
     {% endif %}
     {% if recent_articles %}
-        <aside id="recent-posts-2" class="widget widget_recent_entries"><p class="widget-title">近期文章</p>
+        <aside id="recent-posts-2" class="widget widget_recent_entries"><p class="widget-title" style="color: orange; text-decoration: none;">近期文章</p>
             <ul>
 
                 {% for a in  recent_articles %}
@@ -89,7 +89,7 @@
         </aside>
     {% endif %}
     {% if sidabar_links %}
-        <aside id="linkcat-0" class="widget widget_links"><p class="widget-title">书签</p>
+        <aside id="linkcat-0" class="widget widget_links"><p class="widget-title" style="color: orange; text-decoration: none;">书签</p>
             <ul class='xoxo blogroll'>
                 {% for l in sidabar_links %}
                     <li>
@@ -108,7 +108,7 @@
         </aside>
     {% endif %}
     {% if sidebar_tags %}
-        <aside id="tag_cloud-2" class="widget widget_tag_cloud"><p class="widget-title">标签云</p>
+        <aside id="tag_cloud-2" class="widget widget_tag_cloud"><p class="widget-title" style="color: orange; text-decoration: none;">标签云</p>
             <div class="tagcloud">
                 {% for tag,count,size in sidebar_tags %}
                     <a href="{{ tag.get_absolute_url }}"
@@ -120,7 +120,7 @@
         </aside>
     {% endif %}
 
-    <aside id="meta-3" class="widget widget_meta"><p class="widget-title">功能</p>
+    <aside id="meta-3" class="widget widget_meta"><p class="widget-title" style="color: orange; text-decoration: none;">功能</p>
         <ul>
             <li><a href="/admin/" rel="nofollow">管理站点</a></li>
             {% if user.is_authenticated %}
