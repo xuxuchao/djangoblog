@@ -2,7 +2,7 @@
 {% load blog_tags %}
 
 {% block header %}
-    <title>{{ article.title }} | {{ SITE_DESCRIPTION }}</title>
+    <title>{{ article.title }}</title>
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="{{ article.title }}"/>
 
@@ -25,6 +25,7 @@
     {% else %}
         <meta name="keywords" content="{{ SITE_KEYWORDS }}"/>
     {% endif %}
+    <link rel="icon" type="image/x-icon" href="/blog/static/blog/img/20240416155610.png">
 
 {% endblock %}
 {% block content %}
