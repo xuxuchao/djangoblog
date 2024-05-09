@@ -709,7 +709,7 @@ footer[role="contentinfo"] {
     font-size: 0.857142857rem;
     line-height: 2;
     max-width: 960px;
-    max-width: 68.571428571rem;
+    max-width: 87rem;
     margin-top: 24px;
     margin-top: 1.714285714rem;
     margin-left: auto;
@@ -958,6 +958,7 @@ article.sticky .featured-post {
     overflow: auto;
     padding: 24px;
     padding: 1.714285714rem;
+    border-radius: 12px;
 }
 
 .entry-content pre code,
@@ -1690,8 +1691,9 @@ img#wpstats {
     .site {
         margin: 0 auto;
         max-width: 960px;
-        max-width: 68.571428571rem;
+        max-width: 75rem;
         overflow: hidden;
+        border-radius: 20px;
     }
 
     .site-content {
@@ -1884,7 +1886,7 @@ img#wpstats {
 /* Minimum width of 960 pixels. */
 @media screen and (min-width: 960px) {
     body {
-        background-color: #e6e6e6;
+        background-color: #f5f5f9;
     }
 
     body .site {
@@ -2501,4 +2503,57 @@ li #reply-title {
     height: 1px;
     border: none;
     /*border-top: 1px dashed #f5d6d6;*/
+}
+button, input, optgroup, select, textarea {
+    font: inherit;
+    margin: 0;
+    color: inherit;
+    outline:none;
+    border-color:#dcdfe6;
+}
+input[type='submit'],input[type='submit']:hover{
+  background: #21759b;
+  color:#fff;
+  border:0;
+}
+
+/* 定义一个名为rotate的动画 */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ 
+ 
+.img-circle:hover{
+  animation: rotate 0.4s linear infinite;
+}
+
+.my-name{
+  color:#21759b;
+  font-weight: bold;
+  font-size: 15px;
+}
+.entry-content img, .comment-content img, .widget img, img.header-image, .author-avatar img, img.wp-post-image{
+  border-radius: 12px;
+}
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 5px;
+  background: #d4dffa;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #babac8a8;
+  border-radius: 12px !important;
 }
