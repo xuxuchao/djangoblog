@@ -218,13 +218,13 @@ article.post-password-required input[type=submit],
     line-height: 1.428571429;
     font-weight: normal;
     color: #7c7c7c;
-    background-color: #e6e6e6;
+    background-color: #f5f5f9;
     background-repeat: repeat-x;
-    background-image: -moz-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -ms-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -webkit-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -o-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: linear-gradient(to bottom, #f4f4f4, #e6e6e6);
+    background-image: -moz-linear-gradient(top, #f4f4f4, #f5f5f9);
+    background-image: -ms-linear-gradient(top, #f4f4f4, #f5f5f9);
+    background-image: -webkit-linear-gradient(top, #f4f4f4, #f5f5f9);
+    background-image: -o-linear-gradient(top, #f4f4f4, #f5f5f9);
+    background-image: linear-gradient(to bottom, #f4f4f4, #f5f5f9);
     border: 1px solid #d2d2d2;
     border-radius: 3px;
     box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
@@ -280,7 +280,7 @@ input[type="reset"]:active {
 
 .bypostauthor cite span {
     color: #fff;
-    background-color: #21759b;
+    background-color: orange;
     background-image: none;
     border: 1px solid #1f6f93;
     border-radius: 2px;
@@ -498,7 +498,7 @@ body.custom-font-enabled {
 
 a {
     outline: none;
-    color: #21759b;
+    color: orange;
 }
 
 a:hover {
@@ -572,7 +572,7 @@ a:hover {
 
 .site-header h1 a:hover,
 .site-header h2 a:hover {
-    color: #21759b;
+    color: orange;
 }
 
 .site-header h1 {
@@ -617,7 +617,7 @@ a:hover {
 
 .main-navigation a:hover,
 .main-navigation a:focus {
-    color: #21759b;
+    color: orange;
 }
 
 .main-navigation ul.nav-menu,
@@ -690,7 +690,7 @@ section[role="banner"] {
 }
 
 .widget-area .widget a:hover {
-    color: #21759b;
+    color: orange;
 }
 
 .widget-area .widget a:visited {
@@ -709,7 +709,7 @@ footer[role="contentinfo"] {
     font-size: 0.857142857rem;
     line-height: 2;
     max-width: 960px;
-    max-width: 68.571428571rem;
+    max-width: 87rem;
     margin-top: 24px;
     margin-top: 1.714285714rem;
     margin-left: auto;
@@ -723,7 +723,7 @@ footer[role="contentinfo"] a {
 }
 
 footer[role="contentinfo"] a:hover {
-    color: #21759b;
+    color: orange;
 }
 
 .site-info span[role=separator] {
@@ -785,7 +785,7 @@ footer[role="contentinfo"] a:hover {
 
 .comments-link a:hover,
 .entry-meta a:hover {
-    color: #21759b;
+    color: orange;
 }
 
 article.sticky .featured-post {
@@ -958,6 +958,7 @@ article.sticky .featured-post {
     overflow: auto;
     padding: 24px;
     padding: 1.714285714rem;
+    border-radius: 12px;
 }
 
 .entry-content pre code,
@@ -1290,7 +1291,7 @@ article.format-quote .entry-content blockquote {
 }
 
 .format-status .entry-header header a:hover {
-    color: #21759b;
+    color: orange;
 }
 
 .format-status .entry-header img {
@@ -1362,7 +1363,7 @@ article.format-quote .entry-content blockquote {
 }
 
 .comments-area article header a:hover {
-    color: #21759b;
+    color: orange;
 }
 
 .comments-area article header cite a {
@@ -1418,7 +1419,7 @@ a.comment-edit-link {
 
 a.comment-reply-link:hover,
 a.comment-edit-link:hover {
-    color: #21759b;
+    color: orange;
 }
 
 .commentlist .pingback {
@@ -1537,7 +1538,7 @@ a.comment-edit-link:hover {
 }
 
 .template-front-page .widget-area .widget li a:hover {
-    color: #21759b;
+    color: orange;
 }
 
 .template-front-page .widget-area .widget_text img {
@@ -1690,8 +1691,9 @@ img#wpstats {
     .site {
         margin: 0 auto;
         max-width: 960px;
-        max-width: 68.571428571rem;
+        max-width: 87rem;
         overflow: hidden;
+        border-radius: 20px;
     }
 
     .site-content {
@@ -1727,7 +1729,7 @@ img#wpstats {
         border-bottom: 1px solid #ededed;
         border-top: 1px solid #ededed;
         display: inline-block !important;
-        text-align: left;
+        text-align: right;
         width: 100%;
     }
 
@@ -1884,7 +1886,7 @@ img#wpstats {
 /* Minimum width of 960 pixels. */
 @media screen and (min-width: 960px) {
     body {
-        background-color: #e6e6e6;
+        background-color: #f5f5f9;
     }
 
     body .site {
@@ -2501,4 +2503,57 @@ li #reply-title {
     height: 1px;
     border: none;
     /*border-top: 1px dashed #f5d6d6;*/
+}
+button, input, optgroup, select, textarea {
+    font: inherit;
+    margin: 0;
+    color: inherit;
+    outline:none;
+    border-color:#dcdfe6;
+}
+input[type='submit'],input[type='submit']:hover{
+  background: orange;
+  color:#fff;
+  border:0;
+}
+
+/* 定义一个名为rotate的动画 */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ 
+ 
+.img-circle:hover{
+  animation: rotate 0.4s linear infinite;
+}
+
+.my-name{
+  color:orange;
+  font-weight: bold;
+  font-size: 15px;
+}
+.entry-content img, .comment-content img, .widget img, img.header-image, .author-avatar img, img.wp-post-image{
+  border-radius: 12px;
+}
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 5px;
+  background: #d4dffa;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #babac8a8;
+  border-radius: 12px !important;
 }
