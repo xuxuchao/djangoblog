@@ -280,7 +280,7 @@ input[type="reset"]:active {
 
 .bypostauthor cite span {
     color: #fff;
-    background-color: #21759b;
+    background-color: #81bbd6;
     background-image: none;
     border: 1px solid #1f6f93;
     border-radius: 2px;
@@ -498,7 +498,7 @@ body.custom-font-enabled {
 
 a {
     outline: none;
-    color: #21759b;
+    color: #81bbd6;
 }
 
 a:hover {
@@ -572,7 +572,7 @@ a:hover {
 
 .site-header h1 a:hover,
 .site-header h2 a:hover {
-    color: #21759b;
+    color: #81bbd6;
 }
 
 .site-header h1 {
@@ -617,7 +617,7 @@ a:hover {
 
 .main-navigation a:hover,
 .main-navigation a:focus {
-    color: #21759b;
+    color: #81bbd6;
 }
 
 .main-navigation ul.nav-menu,
@@ -690,7 +690,7 @@ section[role="banner"] {
 }
 
 .widget-area .widget a:hover {
-    color: #21759b;
+    color: #81bbd6;
 }
 
 .widget-area .widget a:visited {
@@ -723,7 +723,7 @@ footer[role="contentinfo"] a {
 }
 
 footer[role="contentinfo"] a:hover {
-    color: #21759b;
+    color: #81bbd6;
 }
 
 .site-info span[role=separator] {
@@ -785,7 +785,7 @@ footer[role="contentinfo"] a:hover {
 
 .comments-link a:hover,
 .entry-meta a:hover {
-    color: #21759b;
+    color: #81bbd6;
 }
 
 article.sticky .featured-post {
@@ -1291,7 +1291,7 @@ article.format-quote .entry-content blockquote {
 }
 
 .format-status .entry-header header a:hover {
-    color: #21759b;
+    color: #81bbd6;
 }
 
 .format-status .entry-header img {
@@ -1363,7 +1363,7 @@ article.format-quote .entry-content blockquote {
 }
 
 .comments-area article header a:hover {
-    color: #21759b;
+    color: #81bbd6;
 }
 
 .comments-area article header cite a {
@@ -1419,7 +1419,7 @@ a.comment-edit-link {
 
 a.comment-reply-link:hover,
 a.comment-edit-link:hover {
-    color: #21759b;
+    color: #81bbd6;
 }
 
 .commentlist .pingback {
@@ -1538,7 +1538,7 @@ a.comment-edit-link:hover {
 }
 
 .template-front-page .widget-area .widget li a:hover {
-    color: #21759b;
+    color: #81bbd6;
 }
 
 .template-front-page .widget-area .widget_text img {
@@ -2512,7 +2512,7 @@ button, input, optgroup, select, textarea {
     border-color:#dcdfe6;
 }
 input[type='submit'],input[type='submit']:hover{
-  background: #21759b;
+  background: #81bbd6;
   color:#fff;
   border:0;
 }
@@ -2533,7 +2533,7 @@ input[type='submit'],input[type='submit']:hover{
 }
 
 .my-name{
-  color:#21759b;
+  color:#81bbd6;
   font-weight: bold;
   font-size: 15px;
 }
