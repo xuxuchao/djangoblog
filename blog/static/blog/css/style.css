@@ -1729,7 +1729,7 @@ img#wpstats {
         border-bottom: 1px solid #ededed;
         border-top: 1px solid #ededed;
         display: inline-block !important;
-        text-align: right;
+        text-align: left;
         width: 100%;
     }
 
