@@ -262,7 +262,7 @@ class ArchivesView(ArticleListView):
     template_name = 'blog/article_archives.html'
 
     def get_queryset_data(self):
-        return Article.objects.filter(status='p').all()
+        return Article.objects.filter(status='p').all().order_by('-created_time')
 
     def get_queryset_cache_key(self):
         cache_key = 'archives'

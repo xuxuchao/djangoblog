@@ -80,7 +80,7 @@
         <aside id="recent-posts-2" class="widget widget_recent_entries"><p class="widget-title" style="color: orange; text-decoration: none;">近期文章</p>
             <ul>
 
-                {% for a in  recent_articles %}
+                {% for a in recent_articles %}
                     <li><a href="{{ a.get_absolute_url }}" title="{{ a.title }}">
                         {{ a.title }}
                     </a></li>

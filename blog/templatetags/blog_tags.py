@@ -132,7 +132,7 @@ def load_sidebar(user, linktype):
         from djangoblog.utils import get_blog_setting
         blogsetting = get_blog_setting()
         recent_articles = Article.objects.filter(
-            status='p')[:blogsetting.sidebar_article_count]
+            status='p').order_by('-created_time')[:blogsetting.sidebar_article_count]
         sidebar_categorys = Category.objects.all()
         extra_sidebars = SideBar.objects.filter(
             is_enable=True).order_by('sequence')

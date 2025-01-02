@@ -89,9 +89,9 @@ def help(message, session):
         recent获得最新文章
         help获得帮助.
         weather:获得天气
-        如weather:西安
+        如weather:河北
         idcard:获得身份证信息
-        如idcard:61048119xxxxxxxxxx
+        如idcard:130623199xxxxxxxxx
         music:音乐搜索
         如music:阴天快乐
         PS:以上标点符号都不支持中文标点~~
